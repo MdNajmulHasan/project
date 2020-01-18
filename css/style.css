@@ -1,0 +1,144 @@
+.logo img {
+	width: 96px;
+	height: 100px;
+}
+.menu ul {
+	margin-bottom: 0;
+}
+
+.header-area {
+	padding: 10px 0;
+}
+
+.menu ul li {
+	display: inline-block;
+}
+
+.menu ul li a {
+	display: block;
+	text-transform: capitalize;
+	font-size: 13px;
+	padding: 44px 10px;
+	text-decoration: none;
+	line-height: 1;
+	color: #ccc;
+	position: relative;
+	font-weight: normal;
+}
+.menu ul li a::after {
+	position: absolute;
+	left: 0;
+	top: 30px;
+	content: '';
+	width: 100%;
+	height: 5px;
+	background: #ccc;
+	transition: .5s;
+	opacity: 0;
+	visibility: hidden;
+}
+.menu ul li a:hover:after {
+	opacity: 1;
+	visibility: visible;
+}
+.banner-area {
+	background: url(../img/1-discount-coupon_720.jpg);
+	background-size: 100% 100%;
+	background-position: center;
+	height: 390px;
+}
+
+.border-height::after {
+	position: absolute;
+	left: 0;
+	top: -8px;
+	width: 100%;
+	height: 5px;
+	content: '';
+	background: #000;
+}
+.border-height {
+	position: relative;
+	padding-top: 20px;
+}
+.copyright {
+	background: #000;
+	color: #808080;
+	padding: 50px 0;
+}
+
+.copyright p {
+	margin-bottom: 0;
+}
+
+/* about */
+.single-content img {
+	width: 100%;
+	height: 300px;
+}
+
+/* sourse */
+.feature-single img {
+	width: 374px;
+	height: 320px;
+}
+.heading {
+	color: #808080;
+	font-size: 18px;
+	font-weight: normal;
+	padding: 10px 0;
+}
+.content-para p {
+	font-size: 13px;
+	color: #808080;
+	line-height: 1;
+}
+.content-para {
+	padding-bottom: 25px;
+}
+.about-heading h3 {
+	text-transform: capitalize;
+	color: #808080;
+	border-top: 3px dotted #808080;
+	border-bottom: 3px dotted #808080;
+	padding: 15px 0;
+	margin-bottom: 25px;
+}
+.single-content p {
+	color: #808080;
+	font-size: 14px;
+	line-height: 1.5;
+}
+.copyright-area {
+	margin-bottom: 10px;
+}
+.feature-single h5 {
+	font-weight: 700;
+	color: #808080;
+	text-transform: capitalize;
+	font-size: 13px;
+}
+.feature-single p {
+	color: #808080;
+	font-size: 13px;
+	font-weight: 400;
+}
+.sourch-image {
+	text-align: center;
+}
+.single-sourse {
+	margin-bottom: 20px;
+}
+.content-area-about {
+	margin-bottom: 20px;
+}
+.single-content-contat h6 {
+	margin-bottom: 0;
+	color: #808080;
+	font-weight: 700;
+}
+.single-content-contat p {
+	color: #808080;
+	font-size: 13px;
+	font-weight: 400;
+}
